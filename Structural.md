@@ -14,3 +14,12 @@ Define and interface and let subclasses decide which class to instantiate
 Class ensures that it has only one single instance created
   + Early instantiation
   + Lazt instantiation
+
+### Usage
++ In multi threading or databse applications
++ Used in log4j (one instance of logger class)
++ Caching, threadpools & configurations
+
+## Builder
+Used to construct a complex object from simple objects with a step by step process
+Mostly used when your object cannot be created in a single step
